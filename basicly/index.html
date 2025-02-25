@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <h1>Form</h1>
+    <form action="result.html" method="get">
+      <label for="fname">Username:</label> <br />
+      <input type="text" id="fname" name="isim" placeholder="adınızı giriniz" /> <br>
+      <label for="surname" >Surname:</label><br>
+      <input type="text" id="surname" name="soyisim" placeholder="soyadınızı giriniz" /><br>
+
+      <div>
+        <label for="password">Password:</label><br>
+
+        <input type="password" id="password" name="parola" placeholder="şifre..."  /><br>
+
+
+      </div>
+
+          <div>
+            <label for="">Gender:</label><br>
+            <label for="gender2">Male</label>
+            <input type="radio" name="cinsiyet" id="gender2" value="erkek" checked/>
+            <label for="gender1">Female</label>    
+            <input type="radio" id="gender1" name="cinsiyet" value="kadın" />
+            <label for="gender3">other</label>    
+            <input type="radio" id="gender3" name="cinsiyet" value="other" />
+            
+            
+            
+          </div> <br>
+          <div>
+            <label for="animal">Select fav animals</label> <br>
+             
+            
+            <label for="panda">panda:</label>
+            <input type="checkbox" name="animal" id="panda" value="panda" ><br>
+            <label for="kurt">kurt:</label>
+            <input type="checkbox" name="animal" id="kurt" value="kurt" ><br>
+            <label for="ayı">ayı:</label>
+            <input type="checkbox" name="animal" id="ayı" value="ayı" ><br>
+            <label for="kaplan">kaplan:</label>
+            <input type="checkbox" name="animal" id="kaplan" value="kaplan" ><br>
+            <label for="aslan">aslan:</label>
+            <input type="checkbox" name="animal" id="aslan" value="aslan" ><br>
+            <label for="fil">fil:</label>
+            <input type="checkbox" name="animal" id="fil" value="fil" ><br>
+          </div>
+
+
+
+
+
+
+      <br /><br /><br /><br /><br />
+      <input type="submit" value="Send" />
+    </form>
+  </body>
+</html>
